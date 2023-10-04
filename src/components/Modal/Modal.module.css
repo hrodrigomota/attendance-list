@@ -24,9 +24,10 @@
   border-radius: 100%;
   width: 1.625rem;
   height: 1.625rem;
+  transition: 200ms;
 }
 
-/* .closeButton:hover, */
+.closeButton:hover,
 .closeButton:active {
   color: white;
   background-color: rgba(255 0 0 / 0.5);
@@ -95,9 +96,10 @@
   color: red;
   border-radius: 0.5rem;
   padding: 0.375rem 0.5rem;
+  transition: 200ms;
 }
 
-/* .modalCancelButton:hover, */
+.modalCancelButton:hover,
 .modalCancelButton:active {
   background-color: red;
   outline: none;
@@ -109,9 +111,10 @@
   color: green;
   border-radius: 0.5rem;
   padding: 0.375rem 0.5rem;
+  transition: 200ms;
 }
 
-/* .modalSaveButton:hover, */
+.modalSaveButton:hover,
 .modalSaveButton:active {
   background-color: green;
   outline: none;
