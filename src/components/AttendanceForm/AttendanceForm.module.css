@@ -36,6 +36,7 @@
   transition: 200ms;
 }
 
-.wrapper button:hover {
+.wrapper button:hover,
+.wrapper button:active {
   background-color: hotpink;
 }
