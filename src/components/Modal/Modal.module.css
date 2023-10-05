@@ -24,7 +24,7 @@
   border-radius: 100%;
   width: 1.625rem;
   height: 1.625rem;
-  transition: 200ms;
+  /* transition: 200ms; */
 }
 
 .closeButton:active {
@@ -95,7 +95,7 @@
   color: red;
   border-radius: 0.5rem;
   padding: 0.375rem 0.5rem;
-  transition: 200ms;
+  /* transition: 200ms; */
 }
 
 .modalCancelButton:active {
@@ -109,7 +109,7 @@
   color: green;
   border-radius: 0.5rem;
   padding: 0.375rem 0.5rem;
-  transition: 200ms;
+  /* transition: 200ms; */
 }
 
 .modalSaveButton:active {
