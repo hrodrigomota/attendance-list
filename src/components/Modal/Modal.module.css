@@ -24,10 +24,10 @@
   border-radius: 100%;
   width: 1.625rem;
   height: 1.625rem;
-  /* transition: 200ms; */
+  transition: 200ms;
 }
 
-.closeButton:active {
+.closeButton:hover {
   color: white;
   background-color: rgba(255 0 0 / 0.5);
 }
@@ -95,10 +95,10 @@
   color: red;
   border-radius: 0.5rem;
   padding: 0.375rem 0.5rem;
-  /* transition: 200ms; */
+  transition: 200ms;
 }
 
-.modalCancelButton:active {
+.modalCancelButton:hover {
   background-color: red;
   outline: none;
   color: white;
@@ -109,10 +109,10 @@
   color: green;
   border-radius: 0.5rem;
   padding: 0.375rem 0.5rem;
-  /* transition: 200ms; */
+  transition: 200ms;
 }
 
-.modalSaveButton:active {
+.modalSaveButton:hover {
   background-color: green;
   outline: none;
   color: white;
@@ -135,25 +135,6 @@
   to {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
-  }
-}
-
-@media (min-width: 769px) {
-  .closeButton:hover {
-    color: white;
-    background-color: rgba(255 0 0 / 0.5);
-  }
-
-  .modalCancelButton:hover {
-    background-color: red;
-    outline: none;
-    color: white;
-  }
-
-  .modalSaveButton:hover {
-    background-color: green;
-    outline: none;
-    color: white;
   }
 }
 
