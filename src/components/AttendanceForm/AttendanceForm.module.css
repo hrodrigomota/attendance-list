@@ -20,7 +20,6 @@
   outline: none;
 }
 
-.wrapper input:hover,
 .wrapper input:focus {
   outline: solid 0.1rem deeppink;
 }
@@ -37,7 +36,12 @@
   transition: 200ms;
 }
 
-.wrapper button:hover,
 .wrapper button:active {
   background-color: hotpink;
+}
+
+@media (min-width: 769px) {
+  .wrapper button:hover {
+    background-color: hotpink;
+  }
 }
